@@ -1,26 +1,19 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:050816,45:0B1220,100:111827&text=IEVGEN%20%2F%2F%20CONTROL%20CENTER&fontColor=E6EDF3&fontSize=38&fontAlignY=38&desc=Systems%20%E2%80%A2%20Infrastructure%20%E2%80%A2%20Automation%20%E2%80%A2%20Data%20%E2%80%A2%20AI&descAlignY=62&descSize=16&animation=fadeIn" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&width=800&lines=%3E+booting+ievgen.systems...;%3E+ASIR+completed+%E2%9C%93;%3E+loading+AI+%26+Big+Data...;%3E+building+systems+that+actually+work.;%3E+learn.+build.+automate.+improve." />
+<img src="./assets/header.svg" width="100%" alt="Ievgen Soloviov Control Center">
 
 <br>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-238636?style=for-the-badge&labelColor=161B22">
-<img src="https://img.shields.io/badge/BASE-ASIR-1F6FEB?style=for-the-badge&labelColor=161B22">
-<img src="https://img.shields.io/badge/CURRENT-AI_%26_BIG_DATA-8957E5?style=for-the-badge&labelColor=161B22">
-<img src="https://img.shields.io/badge/LOCATION-SPAIN-D29922?style=for-the-badge&labelColor=161B22">
-
-<br><br>
-
 <a href="https://ievgensoloviov.github.io/my-portfolio/">
-<img src="https://img.shields.io/badge/↗_PORTFOLIO-OPEN-21262D?style=for-the-badge">
+<img src="https://img.shields.io/badge/PORTFOLIO-OPEN-21262D?style=for-the-badge&logo=githubpages&logoColor=white">
 </a>
+
 <a href="https://www.linkedin.com/in/ievgen-soloviov-0709bb299">
-<img src="https://img.shields.io/badge/↗_LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
+
 <a href="https://github.com/ievgensoloviov?tab=repositories">
-<img src="https://img.shields.io/badge/↗_PROJECTS-EXPLORE-21262D?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/PROJECTS-EXPLORE-21262D?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 </div>
