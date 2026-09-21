@@ -1,0 +1,79 @@
+<svg width="580" height="260"
+     viewBox="0 0 580 260"
+     xmlns="http://www.w3.org/2000/svg">
+
+<rect width="580"
+      height="260"
+      rx="20"
+      fill="#0B1220"
+      stroke="#30363D"/>
+
+<text x="30" y="42"
+      fill="#2DD4BF"
+      font-family="monospace"
+      font-size="12">
+  DEPLOYMENT_02
+</text>
+
+<text x="30" y="82"
+      fill="#F8FAFC"
+      font-family="Arial"
+      font-size="25"
+      font-weight="700">
+  TechSolutions IS
+</text>
+
+<text x="30" y="110"
+      fill="#94A3B8"
+      font-family="Arial"
+      font-size="14">
+  Corporate Infrastructure
+</text>
+
+<text x="30" y="158"
+      fill="#5EEAD4"
+      font-family="monospace"
+      font-size="13">
+  WINDOWS
+</text>
+
+<text x="115" y="158"
+      fill="#5EEAD4"
+      font-family="monospace"
+      font-size="13">
+  LINUX
+</text>
+
+<text x="180" y="158"
+      fill="#5EEAD4"
+      font-family="monospace"
+      font-size="13">
+  AD
+</text>
+
+<text x="220" y="158"
+      fill="#5EEAD4"
+      font-family="monospace"
+      font-size="13">
+  PFSENSE
+</text>
+
+<text x="300" y="158"
+      fill="#5EEAD4"
+      font-family="monospace"
+      font-size="13">
+  DNS / DHCP
+</text>
+
+<line x1="30" y1="187"
+      x2="550" y2="187"
+      stroke="#1F2937"/>
+
+<text x="30" y="220"
+      fill="#64748B"
+      font-family="Arial"
+      font-size="13">
+  LAN / DMZ · SSL/TLS · RAID · backups · directory services
+</text>
+
+</svg>
