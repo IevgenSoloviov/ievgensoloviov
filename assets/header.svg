@@ -1,0 +1,224 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#8957E5"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#1F2937"
+            stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="360"
+        rx="22"
+        fill="url(#background)"/>
+
+  <rect width="1200" height="360"
+        rx="22"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+  <!-- TOP BAR -->
+  <circle cx="35" cy="30" r="6" fill="#FF5F56"/>
+  <circle cx="55" cy="30" r="6" fill="#FFBD2E"/>
+  <circle cx="75" cy="30" r="6" fill="#27C93F"/>
+
+  <text x="100" y="36"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="14">
+    ievgen@control-center:~
+  </text>
+
+  <text x="1160" y="36"
+        text-anchor="end"
+        fill="#475569"
+        font-family="monospace"
+        font-size="13">
+    BUILD 2026.09
+  </text>
+
+  <!-- NETWORK VISUAL -->
+  <g opacity="0.7">
+
+    <line x1="820" y1="110" x2="920" y2="75"
+          stroke="#58A6FF"/>
+
+    <line x1="920" y1="75" x2="1045" y2="120"
+          stroke="#8957E5"/>
+
+    <line x1="920" y1="75" x2="955" y2="195"
+          stroke="#334155"/>
+
+    <line x1="955" y1="195" x2="1080" y2="235"
+          stroke="#2DD4BF"/>
+
+    <line x1="820" y1="110" x2="850" y2="245"
+          stroke="#334155"/>
+
+    <line x1="850" y1="245" x2="955" y2="195"
+          stroke="#58A6FF"/>
+
+    <circle cx="820" cy="110" r="7"
+            fill="#58A6FF"
+            filter="url(#glow)"/>
+
+    <circle cx="920" cy="75" r="7"
+            fill="#8957E5"
+            filter="url(#glow)"/>
+
+    <circle cx="1045" cy="120" r="7"
+            fill="#2DD4BF"
+            filter="url(#glow)"/>
+
+    <circle cx="955" cy="195" r="7"
+            fill="#58A6FF"
+            filter="url(#glow)"/>
+
+    <circle cx="1080" cy="235" r="7"
+            fill="#8957E5"
+            filter="url(#glow)"/>
+
+    <circle cx="850" cy="245" r="7"
+            fill="#2DD4BF"
+            filter="url(#glow)"/>
+
+  </g>
+
+  <!-- SERVER RACK -->
+  <g transform="translate(1020 145)">
+    <rect width="105" height="120"
+          rx="8"
+          fill="#0F172A"
+          stroke="#334155"/>
+
+    <rect x="12" y="16"
+          width="81" height="22"
+          rx="3"
+          fill="#111827"
+          stroke="#1F6FEB"/>
+
+    <circle cx="82" cy="27" r="3" fill="#27C93F"/>
+
+    <rect x="12" y="49"
+          width="81" height="22"
+          rx="3"
+          fill="#111827"
+          stroke="#8957E5"/>
+
+    <circle cx="82" cy="60" r="3" fill="#27C93F"/>
+
+    <rect x="12" y="82"
+          width="81" height="22"
+          rx="3"
+          fill="#111827"
+          stroke="#2DD4BF"/>
+
+    <circle cx="82" cy="93" r="3" fill="#27C93F"/>
+  </g>
+
+  <!-- MAIN IDENTITY -->
+  <text x="70" y="120"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="16"
+        letter-spacing="3">
+    // SYSTEM PROFILE
+  </text>
+
+  <text x="70" y="176"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="46"
+        font-weight="700">
+    IEVGEN SOLOVIOV
+  </text>
+
+  <rect x="70" y="197"
+        width="555"
+        height="4"
+        rx="2"
+        fill="url(#accent)"/>
+
+  <text x="70" y="232"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="17">
+    SYSTEMS  //  CLOUD NATIVE  //  AUTOMATION
+  </text>
+
+  <text x="70" y="260"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="17">
+    DATA  //  ARTIFICIAL INTELLIGENCE
+  </text>
+
+  <!-- STATUS -->
+  <rect x="70" y="294"
+        width="150" height="34"
+        rx="17"
+        fill="#0D2818"
+        stroke="#238636"/>
+
+  <circle cx="90" cy="311"
+          r="5"
+          fill="#3FB950"/>
+
+  <text x="105" y="316"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="13">
+    SYSTEM ONLINE
+  </text>
+
+  <rect x="235" y="294"
+        width="150" height="34"
+        rx="17"
+        fill="#0C1D36"
+        stroke="#1F6FEB"/>
+
+  <text x="255" y="316"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="13">
+    ASIR COMPLETE
+  </text>
+
+  <rect x="400" y="294"
+        width="195" height="34"
+        rx="17"
+        fill="#211739"
+        stroke="#8957E5"/>
+
+  <text x="420" y="316"
+        fill="#D2A8FF"
+        font-family="monospace"
+        font-size="13">
+    AI + BIG DATA // NOW
+  </text>
+
+</svg>
