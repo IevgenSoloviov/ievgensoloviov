@@ -1,0 +1,72 @@
+<svg width="580" height="260"
+     viewBox="0 0 580 260"
+     xmlns="http://www.w3.org/2000/svg">
+
+<rect width="580"
+      height="260"
+      rx="20"
+      fill="#0B1220"
+      stroke="#30363D"/>
+
+<text x="30" y="42"
+      fill="#8957E5"
+      font-family="monospace"
+      font-size="12">
+  DEPLOYMENT_01
+</text>
+
+<text x="30" y="82"
+      fill="#F8FAFC"
+      font-family="Arial"
+      font-size="25"
+      font-weight="700">
+  Hotel Management
+</text>
+
+<text x="30" y="110"
+      fill="#94A3B8"
+      font-family="Arial"
+      font-size="14">
+  Application · Database · Analytics
+</text>
+
+<text x="30" y="158"
+      fill="#58A6FF"
+      font-family="monospace"
+      font-size="13">
+  PYTHON
+</text>
+
+<text x="115" y="158"
+      fill="#58A6FF"
+      font-family="monospace"
+      font-size="13">
+  POSTGRESQL
+</text>
+
+<text x="235" y="158"
+      fill="#58A6FF"
+      font-family="monospace"
+      font-size="13">
+  POWER BI
+</text>
+
+<text x="330" y="158"
+      fill="#58A6FF"
+      font-family="monospace"
+      font-size="13">
+  APIs
+</text>
+
+<line x1="30" y1="187"
+      x2="550" y2="187"
+      stroke="#1F2937"/>
+
+<text x="30" y="220"
+      fill="#64748B"
+      font-family="Arial"
+      font-size="13">
+  DB administration · replication · backups · reporting
+</text>
+
+</svg>
