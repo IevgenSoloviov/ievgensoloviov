@@ -1,192 +1,406 @@
-<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050816"/>
-      <stop offset="55%" stop-color="#0B1220"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
+  <!-- ====================================================== -->
+  <!-- PLATFORM / DATA FABRIC                                 -->
+  <!-- ====================================================== -->
 
-    <linearGradient id="lineBlue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58A6FF"/>
-      <stop offset="100%" stop-color="#2DD4BF"/>
-    </linearGradient>
+  <!-- Service drops -->
+  <line x1="320" y1="582" x2="320" y2="610"
+        stroke="#334155" stroke-width="3"/>
 
-    <linearGradient id="linePurple" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58A6FF"/>
-      <stop offset="100%" stop-color="#8957E5"/>
-    </linearGradient>
+  <line x1="600" y1="582" x2="600" y2="610"
+        stroke="#334155" stroke-width="3"/>
 
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+  <line x1="880" y1="582" x2="880" y2="610"
+        stroke="#334155" stroke-width="3"/>
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1"/>
-    </pattern>
-  </defs>
+  <!-- Shared data bus -->
+  <line x1="290" y1="610" x2="910" y2="610"
+        stroke="url(#linePurple)"
+        stroke-width="3"
+        stroke-linecap="round"
+        opacity="0.85"/>
 
-  <!-- Background -->
-  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="760" rx="24" fill="url(#grid)" opacity="0.22"/>
+  <!-- Bus nodes -->
+  <circle cx="320" cy="610" r="5"
+          fill="#58A6FF"
+          filter="url(#softGlow)"/>
 
-  <!-- Header -->
-  <text x="50" y="52" fill="#58A6FF" font-family="monospace" font-size="14" letter-spacing="2">
-    05 // FLAGSHIP ARCHITECTURE
-  </text>
+  <circle cx="600" cy="610" r="5"
+          fill="#8957E5"
+          filter="url(#softGlow)"/>
 
-  <text x="50" y="92" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="30" font-weight="700">
-    ShopMicro · Cloud-Native Microservices Platform
-  </text>
+  <circle cx="880" cy="610" r="5"
+          fill="#2DD4BF"
+          filter="url(#softGlow)"/>
 
-  <text x="50" y="122" fill="#94A3B8" font-family="Arial, sans-serif" font-size="15">
-    Kubernetes · Helm · Istio · Prometheus · Grafana · HPA
-  </text>
+  <!-- Data fabric container -->
+  <rect x="145" y="628"
+        width="910"
+        height="105"
+        rx="22"
+        fill="#08101E"
+        stroke="#263449"
+        stroke-width="1.5"/>
 
-  <!-- Top badges -->
-  <rect x="850" y="40" width="110" height="34" rx="17" fill="#0C1D36" stroke="#1F6FEB"/>
-  <text x="905" y="61" text-anchor="middle" fill="#79C0FF" font-family="monospace" font-size="12">KUBERNETES</text>
+  <!-- Data fabric header -->
+  <rect x="175" y="614"
+        width="190"
+        height="28"
+        rx="14"
+        fill="#0C1D36"
+        stroke="#1F6FEB"/>
 
-  <rect x="970" y="40" width="85" height="34" rx="17" fill="#211739" stroke="#8957E5"/>
-  <text x="1012.5" y="61" text-anchor="middle" fill="#D2A8FF" font-family="monospace" font-size="12">ISTIO</text>
+  <circle cx="195" cy="628"
+          r="4"
+          fill="#58A6FF"/>
 
-  <rect x="1065" y="40" width="85" height="34" rx="17" fill="#0D2818" stroke="#238636"/>
-  <text x="1107.5" y="61" text-anchor="middle" fill="#7EE787" font-family="monospace" font-size="12">ONLINE</text>
-
-  <!-- Client -->
-  <rect x="500" y="150" width="200" height="56" rx="14" fill="#0F172A" stroke="#64748B"/>
-  <text x="600" y="185" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="19" font-weight="700">
-    CLIENT / BROWSER
-  </text>
-
-  <!-- Line to Ingress -->
-  <line x1="600" y1="206" x2="600" y2="248" stroke="url(#lineBlue)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="600" cy="248" r="5" fill="#58A6FF" filter="url(#softGlow)"/>
-
-  <!-- Ingress -->
-  <rect x="465" y="248" width="270" height="70" rx="16" fill="#0B1220" stroke="#58A6FF" stroke-width="2"/>
-  <text x="600" y="280" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="13">ENTRY LAYER</text>
-  <text x="600" y="303" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="21" font-weight="700">
-    NGINX INGRESS
-  </text>
-
-  <!-- Line to API Gateway -->
-  <line x1="600" y1="318" x2="600" y2="360" stroke="url(#lineBlue)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="600" cy="360" r="5" fill="#58A6FF" filter="url(#softGlow)"/>
-
-  <!-- API Gateway -->
-  <rect x="470" y="360" width="260" height="70" rx="16" fill="#0B1220" stroke="#2DD4BF" stroke-width="2"/>
-  <text x="600" y="392" text-anchor="middle" fill="#2DD4BF" font-family="monospace" font-size="13">ROUTING LAYER</text>
-  <text x="600" y="415" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="21" font-weight="700">
-    API GATEWAY
-  </text>
-
-  <!-- Service connections -->
-  <line x1="600" y1="430" x2="320" y2="490" stroke="url(#linePurple)" stroke-width="3"/>
-  <line x1="600" y1="430" x2="600" y2="490" stroke="url(#linePurple)" stroke-width="3"/>
-  <line x1="600" y1="430" x2="880" y2="490" stroke="url(#linePurple)" stroke-width="3"/>
-
-  <!-- Product Service -->
-  <rect x="180" y="490" width="280" height="92" rx="18" fill="#0F172A" stroke="#58A6FF" stroke-width="2"/>
-  <text x="320" y="520" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="12">MICROSERVICE_01</text>
-  <text x="320" y="550" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="22" font-weight="700">
-    PRODUCT SERVICE
-  </text>
-  <text x="320" y="572" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="13">
-    Products / Incidents Management
-  </text>
-
-  <!-- Order Service -->
-  <rect x="460" y="490" width="280" height="92" rx="18" fill="#0F172A" stroke="#8957E5" stroke-width="2"/>
-  <text x="600" y="520" text-anchor="middle" fill="#D2A8FF" font-family="monospace" font-size="12">MICROSERVICE_02</text>
-  <text x="600" y="550" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="22" font-weight="700">
-    ORDER SERVICE
-  </text>
-  <text x="600" y="572" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="13">
-    Orders / Assignments Management
-  </text>
-
-  <!-- User Service -->
-  <rect x="740" y="490" width="280" height="92" rx="18" fill="#0F172A" stroke="#2DD4BF" stroke-width="2"/>
-  <text x="880" y="520" text-anchor="middle" fill="#5EEAD4" font-family="monospace" font-size="12">MICROSERVICE_03</text>
-  <text x="880" y="550" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="22" font-weight="700">
-    USER SERVICE
-  </text>
-  <text x="880" y="572" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="13">
-    Users / Authentication
-  </text>
-
-  <!-- Data lines -->
-  <line x1="320" y1="582" x2="320" y2="625" stroke="#334155" stroke-width="3"/>
-  <line x1="600" y1="582" x2="600" y2="625" stroke="#334155" stroke-width="3"/>
-  <line x1="880" y1="582" x2="880" y2="625" stroke="#334155" stroke-width="3"/>
-
-  <!-- Data Layer Label -->
-  <text x="600" y="628" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="12" letter-spacing="2">
-    DATA LAYER
+  <text x="210" y="633"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="11"
+        letter-spacing="1">
+    DATA / MESSAGING FABRIC
   </text>
 
   <!-- MySQL -->
-  <rect x="180" y="640" width="220" height="72" rx="16" fill="#0B1220" stroke="#4479A1" stroke-width="2"/>
-  <text x="290" y="668" text-anchor="middle" fill="#79C0FF" font-family="monospace" font-size="12">STATEFUL DATA</text>
-  <text x="290" y="694" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="21" font-weight="700">
-    MySQL
-  </text>
+  <g>
+    <rect x="185" y="658"
+          width="245"
+          height="54"
+          rx="13"
+          fill="#0F172A"
+          stroke="#4479A1"
+          stroke-width="1.5"/>
+
+    <circle cx="212" cy="685"
+            r="8"
+            fill="#4479A1"
+            opacity="0.22"/>
+
+    <circle cx="212" cy="685"
+            r="4"
+            fill="#79C0FF"/>
+
+    <text x="232" y="679"
+          fill="#F8FAFC"
+          font-family="Arial, sans-serif"
+          font-size="16"
+          font-weight="700">
+      MySQL
+    </text>
+
+    <text x="232" y="699"
+          fill="#64748B"
+          font-family="monospace"
+          font-size="10">
+      STATEFUL PERSISTENCE
+    </text>
+  </g>
 
   <!-- Redis -->
-  <rect x="490" y="640" width="220" height="72" rx="16" fill="#0B1220" stroke="#DC382D" stroke-width="2"/>
-  <text x="600" y="668" text-anchor="middle" fill="#FF7B72" font-family="monospace" font-size="12">CACHE LAYER</text>
-  <text x="600" y="694" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="21" font-weight="700">
-    Redis
-  </text>
+  <g>
+    <rect x="478" y="658"
+          width="245"
+          height="54"
+          rx="13"
+          fill="#0F172A"
+          stroke="#DC382D"
+          stroke-width="1.5"/>
+
+    <circle cx="505" cy="685"
+            r="8"
+            fill="#DC382D"
+            opacity="0.22"/>
+
+    <circle cx="505" cy="685"
+            r="4"
+            fill="#FF7B72"/>
+
+    <text x="525" y="679"
+          fill="#F8FAFC"
+          font-family="Arial, sans-serif"
+          font-size="16"
+          font-weight="700">
+      Redis
+    </text>
+
+    <text x="525" y="699"
+          fill="#64748B"
+          font-family="monospace"
+          font-size="10">
+      DISTRIBUTED CACHE
+    </text>
+  </g>
 
   <!-- RabbitMQ -->
-  <rect x="800" y="640" width="220" height="72" rx="16" fill="#0B1220" stroke="#F97316" stroke-width="2"/>
-  <text x="910" y="668" text-anchor="middle" fill="#FDBA74" font-family="monospace" font-size="12">ASYNC MESSAGING</text>
-  <text x="910" y="694" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="21" font-weight="700">
-    RabbitMQ
+  <g>
+    <rect x="770" y="658"
+          width="245"
+          height="54"
+          rx="13"
+          fill="#0F172A"
+          stroke="#F97316"
+          stroke-width="1.5"/>
+
+    <circle cx="797" cy="685"
+            r="8"
+            fill="#F97316"
+            opacity="0.22"/>
+
+    <circle cx="797" cy="685"
+            r="4"
+            fill="#FDBA74"/>
+
+    <text x="817" y="679"
+          fill="#F8FAFC"
+          font-family="Arial, sans-serif"
+          font-size="16"
+          font-weight="700">
+      RabbitMQ
+    </text>
+
+    <text x="817" y="699"
+          fill="#64748B"
+          font-family="monospace"
+          font-size="10">
+      ASYNC MESSAGING
+    </text>
+  </g>
+
+  <!-- Platform indicator -->
+  <rect x="825" y="614"
+        width="200"
+        height="28"
+        rx="14"
+        fill="#071A2C"
+        stroke="#326CE5"/>
+
+  <circle cx="847" cy="628"
+          r="4"
+          fill="#326CE5"
+          filter="url(#softGlow)"/>
+
+  <text x="860" y="633"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="10">
+    KUBERNETES PLATFORM
   </text>
 
-  <!-- Istio box -->
-  <rect x="45" y="215" width="255" height="190" rx="18" fill="#0B1220" stroke="#8957E5" stroke-width="2"/>
-  <text x="172" y="247" text-anchor="middle" fill="#D2A8FF" font-family="monospace" font-size="13">SERVICE MESH</text>
-  <text x="172" y="278" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="24" font-weight="700">
-    ISTIO
+
+  <!-- ====================================================== -->
+  <!-- ISTIO PANEL                                            -->
+  <!-- ====================================================== -->
+
+  <rect x="45" y="215"
+        width="255"
+        height="205"
+        rx="20"
+        fill="#09111F"
+        stroke="#8957E5"
+        stroke-width="1.5"/>
+
+  <rect x="65" y="235"
+        width="98"
+        height="24"
+        rx="12"
+        fill="#211739"/>
+
+  <text x="114" y="251"
+        text-anchor="middle"
+        fill="#D2A8FF"
+        font-family="monospace"
+        font-size="10">
+    SERVICE MESH
   </text>
 
-  <text x="82" y="320" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">• Traffic control</text>
-  <text x="82" y="346" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">• Retries</text>
-  <text x="82" y="372" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">• Timeouts</text>
-  <text x="82" y="398" fill="#94A3B8" font-family="Arial, sans-serif" font-size="14">• Circuit breaker</text>
-
-  <!-- Observability box -->
-  <rect x="900" y="215" width="255" height="210" rx="18" fill="#0B1220" stroke="#2DD4BF" stroke-width="2"/>
-  <text x="1027" y="247" text-anchor="middle" fill="#5EEAD4" font-family="monospace" font-size="13">OBSERVABILITY</text>
-  <text x="1027" y="278" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="24" font-weight="700">
-    MONITORING STACK
+  <text x="70" y="295"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        font-weight="700">
+    Istio
   </text>
 
-  <rect x="935" y="308" width="185" height="34" rx="10" fill="#111827" stroke="#E6522C"/>
-  <text x="1027" y="330" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="14">Prometheus</text>
-
-  <rect x="935" y="352" width="185" height="34" rx="10" fill="#111827" stroke="#F46800"/>
-  <text x="1027" y="374" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="14">Grafana</text>
-
-  <rect x="935" y="396" width="185" height="34" rx="10" fill="#111827" stroke="#326CE5"/>
-  <text x="1027" y="418" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="14">Kiali</text>
-
-  <!-- Kubernetes base -->
-  <rect x="120" y="458" width="940" height="270" rx="24" fill="none" stroke="#1F6FEB" stroke-width="2" stroke-dasharray="10 8" opacity="0.55"/>
-  <text x="1035" y="452" text-anchor="end" fill="#58A6FF" font-family="monospace" font-size="12" letter-spacing="2">
-    KUBERNETES CLUSTER
+  <text x="70" y="320"
+        fill="#64748B"
+        font-family="Arial, sans-serif"
+        font-size="12">
+    Resilience &amp; traffic control
   </text>
 
-  <!-- Footer caption -->
-  <rect x="355" y="82" width="430" height="28" rx="14" fill="#0C1D36" stroke="#1F6FEB"/>
-  <text x="570" y="100" text-anchor="middle" fill="#79C0FF" font-family="monospace" font-size="11">
-    CLIENT → INGRESS → GATEWAY → MICROSERVICES → DATA
+  <!-- Istio features -->
+  <rect x="70" y="344"
+        width="92" height="27"
+        rx="8"
+        fill="#111827"
+        stroke="#3B2A61"/>
+
+  <text x="116" y="362"
+        text-anchor="middle"
+        fill="#B392F0"
+        font-family="monospace"
+        font-size="10">
+    RETRIES
   </text>
-</svg>
+
+  <rect x="171" y="344"
+        width="103" height="27"
+        rx="8"
+        fill="#111827"
+        stroke="#3B2A61"/>
+
+  <text x="222" y="362"
+        text-anchor="middle"
+        fill="#B392F0"
+        font-family="monospace"
+        font-size="10">
+    TIMEOUTS
+  </text>
+
+  <rect x="70" y="380"
+        width="125" height="27"
+        rx="8"
+        fill="#111827"
+        stroke="#3B2A61"/>
+
+  <text x="132" y="398"
+        text-anchor="middle"
+        fill="#B392F0"
+        font-family="monospace"
+        font-size="10">
+    CIRCUIT BREAKER
+  </text>
+
+  <rect x="204" y="380"
+        width="70" height="27"
+        rx="8"
+        fill="#111827"
+        stroke="#3B2A61"/>
+
+  <text x="239" y="398"
+        text-anchor="middle"
+        fill="#B392F0"
+        font-family="monospace"
+        font-size="10">
+    mTLS
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- OBSERVABILITY PANEL                                    -->
+  <!-- ====================================================== -->
+
+  <rect x="900" y="215"
+        width="255"
+        height="220"
+        rx="20"
+        fill="#09111F"
+        stroke="#2DD4BF"
+        stroke-width="1.5"/>
+
+  <rect x="920" y="235"
+        width="115"
+        height="24"
+        rx="12"
+        fill="#092622"/>
+
+  <text x="977" y="251"
+        text-anchor="middle"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="10">
+    OBSERVABILITY
+  </text>
+
+  <text x="925" y="295"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="700">
+    Live Telemetry
+  </text>
+
+  <text x="925" y="320"
+        fill="#64748B"
+        font-family="Arial, sans-serif"
+        font-size="12">
+    Metrics · dashboards · topology
+  </text>
+
+  <!-- Prometheus -->
+  <rect x="925" y="344"
+        width="205" height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#E6522C"/>
+
+  <circle cx="945" cy="356"
+        r="4"
+        fill="#E6522C"/>
+
+  <text x="960" y="361"
+        fill="#E2E8F0"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    Prometheus
+  </text>
+
+  <text x="1110" y="361"
+        text-anchor="end"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    METRICS
+  </text>
+
+  <!-- Grafana -->
+  <rect x="925" y="377"
+        width="205" height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#F46800"/>
+
+  <circle cx="945" cy="389"
+        r="4"
+        fill="#F46800"/>
+
+  <text x="960" y="394"
+        fill="#E2E8F0"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    Grafana
+  </text>
+
+  <text x="1110" y="394"
+        text-anchor="end"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    DASHBOARD
+  </text>
+
+  <!-- Kiali -->
+  <rect x="925" y="410"
+        width="205" height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#326CE5"/>
+
+  <circle cx="945" cy="422"
+        r="4"
+        fill="#326CE5"/>
+
+  <text x="960" y="427"
+        fill="#E2E8F0"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    Kiali
+  </text>
+
+  <text x="1110" y="427"
+        text-anchor="end"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    TOPOLOGY
+  </text>
