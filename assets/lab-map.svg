@@ -1,0 +1,1005 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ===================================================== -->
+    <!-- BACKGROUND                                            -->
+    <!-- ===================================================== -->
+
+    <linearGradient id="bg"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="52%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+
+    </linearGradient>
+
+
+    <!-- ===================================================== -->
+    <!-- ACCENTS                                               -->
+    <!-- ===================================================== -->
+
+    <linearGradient id="coreGradient"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="48%" stop-color="#8957E5"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+
+    </linearGradient>
+
+
+    <linearGradient id="networkLine"
+                    x1="0" y1="0"
+                    x2="1" y2="0">
+
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#8957E5"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+
+    </linearGradient>
+
+
+    <!-- ===================================================== -->
+    <!-- GRID                                                  -->
+    <!-- ===================================================== -->
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#1E293B"
+            stroke-width="1"/>
+
+    </pattern>
+
+
+    <!-- ===================================================== -->
+    <!-- GLOW                                                  -->
+    <!-- ===================================================== -->
+
+    <filter id="softGlow">
+
+      <feGaussianBlur stdDeviation="5"
+                      result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+
+    <filter id="strongGlow">
+
+      <feGaussianBlur stdDeviation="9"
+                      result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ======================================================= -->
+  <!-- BACKGROUND                                              -->
+  <!-- ======================================================= -->
+
+  <rect width="1200"
+        height="700"
+        rx="26"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="700"
+        rx="26"
+        fill="url(#grid)"
+        opacity="0.20"/>
+
+
+  <!-- ======================================================= -->
+  <!-- TERMINAL TOP BAR                                        -->
+  <!-- ======================================================= -->
+
+  <circle cx="32" cy="28" r="5" fill="#FF5F56"/>
+  <circle cx="50" cy="28" r="5" fill="#FFBD2E"/>
+  <circle cx="68" cy="28" r="5" fill="#27C93F"/>
+
+
+  <text x="92"
+        y="33"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+
+    ievgen@technical-lab:~
+
+  </text>
+
+
+  <text x="1150"
+        y="33"
+        text-anchor="end"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+
+    LAB ENVIRONMENT // ONLINE
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- HEADER                                                  -->
+  <!-- ======================================================= -->
+
+  <text x="50"
+        y="72"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="2">
+
+    08 // TECHNICAL LAB
+
+  </text>
+
+
+  <text x="50"
+        y="112"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="29"
+        font-weight="700">
+
+    Where systems become experiments.
+
+  </text>
+
+
+  <text x="50"
+        y="141"
+        fill="#64748B"
+        font-family="Arial, sans-serif"
+        font-size="14">
+
+    Build · test · break · debug · document · improve.
+
+  </text>
+
+
+  <!-- Status -->
+
+  <rect x="950"
+        y="84"
+        width="180"
+        height="32"
+        rx="16"
+        fill="#0D2818"
+        stroke="#238636"/>
+
+
+  <circle cx="972"
+          cy="100"
+          r="4"
+          fill="#3FB950"
+          filter="url(#softGlow)"/>
+
+
+  <text x="987"
+        y="105"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="9">
+
+    LAB STATUS // ACTIVE
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- CONNECTION NETWORK                                      -->
+  <!-- ======================================================= -->
+
+  <!-- left upper -->
+
+  <line x1="370"
+        y1="235"
+        x2="505"
+        y2="330"
+        stroke="#1F6FEB"
+        stroke-width="2"
+        opacity="0.75"/>
+
+  <!-- left center -->
+
+  <line x1="370"
+        y1="365"
+        x2="495"
+        y2="365"
+        stroke="#8957E5"
+        stroke-width="2"
+        opacity="0.75"/>
+
+  <!-- left lower -->
+
+  <line x1="370"
+        y1="495"
+        x2="505"
+        y2="400"
+        stroke="#2DD4BF"
+        stroke-width="2"
+        opacity="0.75"/>
+
+
+  <!-- right upper -->
+
+  <line x1="695"
+        y1="330"
+        x2="830"
+        y2="235"
+        stroke="#2DD4BF"
+        stroke-width="2"
+        opacity="0.75"/>
+
+  <!-- right center -->
+
+  <line x1="705"
+        y1="365"
+        x2="830"
+        y2="365"
+        stroke="#8957E5"
+        stroke-width="2"
+        opacity="0.75"/>
+
+  <!-- right lower -->
+
+  <line x1="695"
+        y1="400"
+        x2="830"
+        y2="495"
+        stroke="#D29922"
+        stroke-width="2"
+        opacity="0.75"/>
+
+
+  <!-- Network dots -->
+
+  <circle cx="430"
+          cy="277"
+          r="4"
+          fill="#58A6FF"
+          filter="url(#softGlow)"/>
+
+  <circle cx="430"
+          cy="365"
+          r="4"
+          fill="#8957E5"
+          filter="url(#softGlow)"/>
+
+  <circle cx="430"
+          cy="453"
+          r="4"
+          fill="#2DD4BF"
+          filter="url(#softGlow)"/>
+
+
+  <circle cx="770"
+          cy="277"
+          r="4"
+          fill="#2DD4BF"
+          filter="url(#softGlow)"/>
+
+  <circle cx="770"
+          cy="365"
+          r="4"
+          fill="#8957E5"
+          filter="url(#softGlow)"/>
+
+  <circle cx="770"
+          cy="453"
+          r="4"
+          fill="#D29922"
+          filter="url(#softGlow)"/>
+
+
+  <!-- ======================================================= -->
+  <!-- CENTER CORE                                             -->
+  <!-- ======================================================= -->
+
+  <circle cx="600"
+          cy="365"
+          r="118"
+          fill="none"
+          stroke="#1E293B"
+          stroke-width="1"/>
+
+
+  <circle cx="600"
+          cy="365"
+          r="100"
+          fill="none"
+          stroke="#263449"
+          stroke-width="1"
+          stroke-dasharray="7 10"/>
+
+
+  <circle cx="600"
+          cy="365"
+          r="82"
+          fill="#09111F"
+          stroke="url(#coreGradient)"
+          stroke-width="3"
+          filter="url(#softGlow)"/>
+
+
+  <!-- Orbit points -->
+
+  <circle cx="600"
+          cy="265"
+          r="5"
+          fill="#58A6FF"
+          filter="url(#softGlow)"/>
+
+  <circle cx="700"
+          cy="365"
+          r="5"
+          fill="#2DD4BF"
+          filter="url(#softGlow)"/>
+
+  <circle cx="600"
+          cy="465"
+          r="5"
+          fill="#8957E5"
+          filter="url(#softGlow)"/>
+
+  <circle cx="500"
+          cy="365"
+          r="5"
+          fill="#58A6FF"
+          filter="url(#softGlow)"/>
+
+
+  <!-- Center text -->
+
+  <text x="600"
+        y="333"
+        text-anchor="middle"
+        fill="#8957E5"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="2">
+
+    TECHNICAL CORE
+
+  </text>
+
+
+  <text x="600"
+        y="370"
+        text-anchor="middle"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        font-weight="700">
+
+    IEVGEN LAB
+
+  </text>
+
+
+  <text x="600"
+        y="396"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="Arial, sans-serif"
+        font-size="12">
+
+    build // test // learn
+
+  </text>
+
+
+  <rect x="545"
+        y="414"
+        width="110"
+        height="24"
+        rx="12"
+        fill="#0D2818"
+        stroke="#238636"/>
+
+
+  <circle cx="563"
+          cy="426"
+          r="3"
+          fill="#3FB950"/>
+
+
+  <text x="575"
+        y="430"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="8">
+
+    LAB ONLINE
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- LEFT CARD 01 // CLOUD NATIVE                            -->
+  <!-- ======================================================= -->
+
+  <rect x="55"
+        y="185"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#1F6FEB"
+        stroke-width="1.5"/>
+
+
+  <rect x="55"
+        y="185"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#1F6FEB"/>
+
+
+  <text x="82"
+        y="214"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_01 // CLOUD NATIVE
+
+  </text>
+
+
+  <text x="82"
+        y="244"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Container Platforms
+
+  </text>
+
+
+  <text x="82"
+        y="270"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Docker · Compose · Swarm · Kubernetes
+
+  </text>
+
+
+  <text x="82"
+        y="284"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Helm · Istio
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- LEFT CARD 02 // SYSTEMS                                 -->
+  <!-- ======================================================= -->
+
+  <rect x="55"
+        y="315"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#8957E5"
+        stroke-width="1.5"/>
+
+
+  <rect x="55"
+        y="315"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#8957E5"/>
+
+
+  <text x="82"
+        y="344"
+        fill="#D2A8FF"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_02 // SYSTEMS
+
+  </text>
+
+
+  <text x="82"
+        y="374"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Infrastructure
+
+  </text>
+
+
+  <text x="82"
+        y="400"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Linux · Ubuntu · Windows Server
+
+  </text>
+
+
+  <text x="82"
+        y="414"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Active Directory · DNS · DHCP
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- LEFT CARD 03 // NETWORK                                 -->
+  <!-- ======================================================= -->
+
+  <rect x="55"
+        y="445"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#2DD4BF"
+        stroke-width="1.5"/>
+
+
+  <rect x="55"
+        y="445"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#2DD4BF"/>
+
+
+  <text x="82"
+        y="474"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_03 // NETWORK
+
+  </text>
+
+
+  <text x="82"
+        y="504"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Connectivity &amp; Security
+
+  </text>
+
+
+  <text x="82"
+        y="530"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    TCP/IP · VLAN · Routing · VPN
+
+  </text>
+
+
+  <text x="82"
+        y="544"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Firewall · pfSense · LAN / DMZ
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- RIGHT CARD 01 // OBSERVABILITY                          -->
+  <!-- ======================================================= -->
+
+  <rect x="830"
+        y="185"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#2DD4BF"
+        stroke-width="1.5"/>
+
+
+  <rect x="1140"
+        y="185"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#2DD4BF"/>
+
+
+  <text x="855"
+        y="214"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_04 // OBSERVABILITY
+
+  </text>
+
+
+  <text x="855"
+        y="244"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Monitoring
+
+  </text>
+
+
+  <text x="855"
+        y="270"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Prometheus · Grafana · Zabbix
+
+  </text>
+
+
+  <text x="855"
+        y="284"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Kiali · SNMP
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- RIGHT CARD 02 // SERVICES                               -->
+  <!-- ======================================================= -->
+
+  <rect x="830"
+        y="315"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#8957E5"
+        stroke-width="1.5"/>
+
+
+  <rect x="1140"
+        y="315"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#8957E5"/>
+
+
+  <text x="855"
+        y="344"
+        fill="#D2A8FF"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_05 // SERVICES
+
+  </text>
+
+
+  <text x="855"
+        y="374"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Network Services
+
+  </text>
+
+
+  <text x="855"
+        y="400"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Matrix · Synapse · Element
+
+  </text>
+
+
+  <text x="855"
+        y="414"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Nginx · RTMP · HLS
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- RIGHT CARD 03 // DATA + AI                              -->
+  <!-- ======================================================= -->
+
+  <rect x="830"
+        y="445"
+        width="315"
+        height="105"
+        rx="18"
+        fill="#09111F"
+        stroke="#D29922"
+        stroke-width="1.5"/>
+
+
+  <rect x="1140"
+        y="445"
+        width="5"
+        height="105"
+        rx="3"
+        fill="#D29922"/>
+
+
+  <text x="855"
+        y="474"
+        fill="#E3B341"
+        font-family="monospace"
+        font-size="9">
+
+    NODE_06 // DATA + AI
+
+  </text>
+
+
+  <text x="855"
+        y="504"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="700">
+
+    Intelligence
+
+  </text>
+
+
+  <text x="855"
+        y="530"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Python · SQL · PostgreSQL · MySQL
+
+  </text>
+
+
+  <text x="855"
+        y="544"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    Big Data · Artificial Intelligence
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- LAB PHILOSOPHY                                         -->
+  <!-- ======================================================= -->
+
+  <text x="600"
+        y="592"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="2">
+
+    LAB WORKFLOW
+
+  </text>
+
+
+  <!-- workflow line -->
+
+  <line x1="170"
+        y1="625"
+        x2="1030"
+        y2="625"
+        stroke="#1E293B"
+        stroke-width="2"/>
+
+
+  <!-- EXPLORE -->
+
+  <circle cx="210"
+          cy="625"
+          r="5"
+          fill="#58A6FF"/>
+
+  <text x="210"
+        y="652"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    EXPLORE
+
+  </text>
+
+
+  <!-- BUILD -->
+
+  <circle cx="365"
+          cy="625"
+          r="5"
+          fill="#58A6FF"/>
+
+  <text x="365"
+        y="652"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    BUILD
+
+  </text>
+
+
+  <!-- BREAK -->
+
+  <circle cx="515"
+          cy="625"
+          r="5"
+          fill="#8957E5"/>
+
+  <text x="515"
+        y="652"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    BREAK
+
+  </text>
+
+
+  <!-- DEBUG -->
+
+  <circle cx="665"
+          cy="625"
+          r="5"
+          fill="#8957E5"/>
+
+  <text x="665"
+        y="652"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    DEBUG
+
+  </text>
+
+
+  <!-- DOCUMENT -->
+
+  <circle cx="820"
+          cy="625"
+          r="5"
+          fill="#2DD4BF"/>
+
+  <text x="820"
+        y="652"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+
+    DOCUMENT
+
+  </text>
+
+
+  <!-- IMPROVE -->
+
+  <circle cx="975"
+          cy="625"
+          r="6"
+          fill="#3FB950"
+          filter="url(#softGlow)"/>
+
+  <text x="975"
+        y="652"
+        text-anchor="middle"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="9">
+
+    IMPROVE
+
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- FOOTER                                                  -->
+  <!-- ======================================================= -->
+
+  <text x="600"
+        y="682"
+        text-anchor="middle"
+        fill="#334155"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1">
+
+    GITHUB IS NOT STORAGE // IT IS THE LAB
+
+  </text>
+
+</svg>
