@@ -1,0 +1,807 @@
+<svg width="1200" height="650" viewBox="0 0 1200 650"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ===================================================== -->
+    <!-- BACKGROUND                                            -->
+    <!-- ===================================================== -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="careerLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="35%" stop-color="#58A6FF"/>
+      <stop offset="70%" stop-color="#8957E5"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+
+    <linearGradient id="blueGlowLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#1E293B"
+            stroke-width="1"/>
+
+    </pattern>
+
+    <filter id="softGlow">
+
+      <feGaussianBlur stdDeviation="5"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ======================================================= -->
+  <!-- BACKGROUND                                              -->
+  <!-- ======================================================= -->
+
+  <rect width="1200"
+        height="650"
+        rx="26"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="650"
+        rx="26"
+        fill="url(#grid)"
+        opacity="0.20"/>
+
+
+  <!-- ======================================================= -->
+  <!-- TERMINAL HEADER                                         -->
+  <!-- ======================================================= -->
+
+  <circle cx="32" cy="28" r="5" fill="#FF5F56"/>
+  <circle cx="50" cy="28" r="5" fill="#FFBD2E"/>
+  <circle cx="68" cy="28" r="5" fill="#27C93F"/>
+
+  <text x="92"
+        y="33"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+    ievgen@career-log:~
+  </text>
+
+  <text x="1150"
+        y="33"
+        text-anchor="end"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+    PROFESSIONAL HISTORY // VERIFIED
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- TITLE                                                   -->
+  <!-- ======================================================= -->
+
+  <text x="50"
+        y="72"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="2">
+    07 // PROFESSIONAL EXPERIENCE
+  </text>
+
+  <text x="50"
+        y="112"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="29"
+        font-weight="700">
+    Experience across real IT environments
+  </text>
+
+  <text x="50"
+        y="141"
+        fill="#64748B"
+        font-family="Arial, sans-serif"
+        font-size="14">
+    Public administration → corporate IT → systems, networks &amp; support
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- STATUS PILLS                                            -->
+  <!-- ======================================================= -->
+
+  <rect x="845"
+        y="82"
+        width="135"
+        height="32"
+        rx="16"
+        fill="#0C1D36"
+        stroke="#1F6FEB"/>
+
+  <circle cx="866"
+          cy="98"
+          r="4"
+          fill="#58A6FF"/>
+
+  <text x="880"
+        y="103"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="9">
+    2 ENVIRONMENTS
+  </text>
+
+
+  <rect x="990"
+        y="82"
+        width="160"
+        height="32"
+        rx="16"
+        fill="#0D2818"
+        stroke="#238636"/>
+
+  <circle cx="1011"
+          cy="98"
+          r="4"
+          fill="#3FB950"
+          filter="url(#softGlow)"/>
+
+  <text x="1025"
+        y="103"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="9">
+    REAL IT EXPERIENCE
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- CAREER TIMELINE                                         -->
+  <!-- ======================================================= -->
+
+  <text x="600"
+        y="188"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="2">
+    CAREER TIMELINE
+  </text>
+
+  <line x1="180"
+        y1="225"
+        x2="1020"
+        y2="225"
+        stroke="url(#careerLine)"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+
+  <!-- 2023 NODE -->
+
+  <circle cx="350"
+          cy="225"
+          r="14"
+          fill="#58A6FF"
+          stroke="#79C0FF"
+          stroke-width="3"
+          filter="url(#softGlow)"/>
+
+  <circle cx="350"
+          cy="225"
+          r="24"
+          fill="none"
+          stroke="#58A6FF"
+          stroke-width="1"
+          opacity="0.25"/>
+
+  <text x="350"
+        y="198"
+        text-anchor="middle"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="11">
+    2023
+  </text>
+
+
+  <!-- 2025 NODE -->
+
+  <circle cx="850"
+          cy="225"
+          r="15"
+          fill="#2DD4BF"
+          stroke="#99F6E4"
+          stroke-width="3"
+          filter="url(#softGlow)"/>
+
+  <circle cx="850"
+          cy="225"
+          r="25"
+          fill="none"
+          stroke="#2DD4BF"
+          stroke-width="1"
+          opacity="0.25"/>
+
+  <text x="850"
+        y="198"
+        text-anchor="middle"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="11">
+    2025
+  </text>
+
+
+  <!-- Timeline progression -->
+
+  <rect x="515"
+        y="208"
+        width="170"
+        height="34"
+        rx="17"
+        fill="#09111F"
+        stroke="#263449"/>
+
+  <text x="600"
+        y="229"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    SUPPORT → SYSTEMS
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- EXPERIENCE 01                                           -->
+  <!-- ======================================================= -->
+
+  <line x1="350"
+        y1="239"
+        x2="350"
+        y2="278"
+        stroke="#58A6FF"
+        stroke-width="2"/>
+
+  <rect x="75"
+        y="278"
+        width="520"
+        height="245"
+        rx="22"
+        fill="#09111F"
+        stroke="#1F6FEB"
+        stroke-width="1.5"/>
+
+
+  <!-- Card top accent -->
+
+  <rect x="75"
+        y="278"
+        width="6"
+        height="245"
+        rx="3"
+        fill="#1F6FEB"/>
+
+
+  <!-- Environment -->
+
+  <rect x="105"
+        y="302"
+        width="155"
+        height="25"
+        rx="12"
+        fill="#0C1D36"/>
+
+  <text x="182"
+        y="319"
+        text-anchor="middle"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="9">
+    PUBLIC ADMINISTRATION
+  </text>
+
+
+  <!-- Company -->
+
+  <text x="105"
+        y="363"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        font-weight="700">
+    Ajuntament de
+  </text>
+
+  <text x="105"
+        y="393"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        font-weight="700">
+    Lloret de Mar
+  </text>
+
+
+  <!-- Role -->
+
+  <text x="105"
+        y="425"
+        fill="#58A6FF"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        font-weight="700">
+    IT Assistant · Internship
+  </text>
+
+  <text x="105"
+        y="448"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="10">
+    04.2023 → 08.2023
+  </text>
+
+
+  <!-- Skills area -->
+
+  <line x1="105"
+        y1="466"
+        x2="565"
+        y2="466"
+        stroke="#1E293B"
+        stroke-width="1"/>
+
+
+  <rect x="105"
+        y="482"
+        width="90"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="150"
+        y="499"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    SUPPORT
+  </text>
+
+
+  <rect x="204"
+        y="482"
+        width="95"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="251"
+        y="499"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    PLONE CMS
+  </text>
+
+
+  <rect x="308"
+        y="482"
+        width="90"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="353"
+        y="499"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    HTML/CSS
+  </text>
+
+
+  <rect x="407"
+        y="482"
+        width="128"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="471"
+        y="499"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    WEB ADMIN
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- EXPERIENCE 02                                           -->
+  <!-- ======================================================= -->
+
+  <line x1="850"
+        y1="239"
+        x2="850"
+        y2="278"
+        stroke="#2DD4BF"
+        stroke-width="2"/>
+
+
+  <rect x="605"
+        y="278"
+        width="520"
+        height="245"
+        rx="22"
+        fill="#09111F"
+        stroke="#2DD4BF"
+        stroke-width="1.5"/>
+
+
+  <!-- Accent -->
+
+  <rect x="1119"
+        y="278"
+        width="6"
+        height="245"
+        rx="3"
+        fill="#2DD4BF"/>
+
+
+  <!-- Environment -->
+
+  <rect x="635"
+        y="302"
+        width="130"
+        height="25"
+        rx="12"
+        fill="#092622"/>
+
+  <text x="700"
+        y="319"
+        text-anchor="middle"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="9">
+    CORPORATE IT
+  </text>
+
+
+  <!-- Company -->
+
+  <text x="635"
+        y="363"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700">
+    SERHS
+  </text>
+
+
+  <!-- Role -->
+
+  <text x="635"
+        y="398"
+        fill="#2DD4BF"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="700">
+    Service Desk Technician
+  </text>
+
+  <text x="635"
+        y="422"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="10">
+    INTERNSHIP // 06.2025 → 11.2025
+  </text>
+
+
+  <!-- System status -->
+
+  <rect x="942"
+        y="348"
+        width="145"
+        height="32"
+        rx="16"
+        fill="#0D2818"
+        stroke="#238636"/>
+
+  <circle cx="964"
+          cy="364"
+          r="4"
+          fill="#3FB950"/>
+
+  <text x="978"
+        y="369"
+        fill="#7EE787"
+        font-family="monospace"
+        font-size="9">
+    PRODUCTION ENV
+  </text>
+
+
+  <line x1="635"
+        y1="445"
+        x2="1095"
+        y2="445"
+        stroke="#1E293B"
+        stroke-width="1"/>
+
+
+  <!-- Skills row 1 -->
+
+  <rect x="635"
+        y="462"
+        width="110"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="690"
+        y="479"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    ACTIVE DIR.
+  </text>
+
+
+  <rect x="754"
+        y="462"
+        width="100"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="804"
+        y="479"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    NETWORKING
+  </text>
+
+
+  <rect x="863"
+        y="462"
+        width="80"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="903"
+        y="479"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    JIRA
+  </text>
+
+
+  <rect x="952"
+        y="462"
+        width="110"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="1007"
+        y="479"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    FIREWALL
+  </text>
+
+
+  <!-- Skills row 2 -->
+
+  <rect x="635"
+        y="495"
+        width="105"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="687"
+        y="512"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    SUPPORT
+  </text>
+
+
+  <rect x="749"
+        y="495"
+        width="110"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="804"
+        y="512"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    SWITCHING
+  </text>
+
+
+  <rect x="868"
+        y="495"
+        width="125"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="930"
+        y="512"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    OS MGMT
+  </text>
+
+
+  <rect x="1002"
+        y="495"
+        width="90"
+        height="25"
+        rx="8"
+        fill="#111827"
+        stroke="#263449"/>
+
+  <text x="1047"
+        y="512"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    SECURITY
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- EVOLUTION / SKILL TRANSITION                            -->
+  <!-- ======================================================= -->
+
+  <text x="600"
+        y="565"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="2">
+    PROFESSIONAL EVOLUTION
+  </text>
+
+
+  <line x1="220"
+        y1="593"
+        x2="980"
+        y2="593"
+        stroke="#1E293B"
+        stroke-width="2"/>
+
+
+  <circle cx="280"
+          cy="593"
+          r="5"
+          fill="#58A6FF"/>
+
+  <circle cx="430"
+          cy="593"
+          r="5"
+          fill="#58A6FF"/>
+
+  <circle cx="580"
+          cy="593"
+          r="5"
+          fill="#8957E5"/>
+
+  <circle cx="730"
+          cy="593"
+          r="5"
+          fill="#2DD4BF"/>
+
+  <circle cx="880"
+          cy="593"
+          r="5"
+          fill="#2DD4BF"
+          filter="url(#softGlow)"/>
+
+
+  <text x="280"
+        y="620"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    SUPPORT
+  </text>
+
+  <text x="430"
+        y="620"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    WEB
+  </text>
+
+  <text x="580"
+        y="620"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    SYSTEMS
+  </text>
+
+  <text x="730"
+        y="620"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    NETWORK
+  </text>
+
+  <text x="880"
+        y="620"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    SECURITY
+  </text>
+
+</svg>
