@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Ievgen Soloviov — Systems, Cloud Native, Data & AI">
+<img src="./assets/header.svg"
+     width="100%"
+     alt="Ievgen Soloviov — Systems, Cloud Native, Data & AI">
 
 <br>
 
@@ -12,21 +14,27 @@
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<a href="https://github.com/ievgensoloviov?tab=repositories">
+<a href="https://github.com/IevgenSoloviov?tab=repositories">
 <img src="https://img.shields.io/badge/PROJECTS-EXPLORE-21262D?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-238636?style=flat-square">
+<img src="https://img.shields.io/badge/●_SYSTEM-ONLINE-238636?style=flat-square">
 <img src="https://img.shields.io/badge/BASE-ASIR-1F6FEB?style=flat-square">
 <img src="https://img.shields.io/badge/CURRENT-AI_%2B_BIG_DATA-8957E5?style=flat-square">
 
 <br><br>
 
-<sub>
-SYSTEMS &nbsp;•&nbsp; CLOUD NATIVE &nbsp;•&nbsp; AUTOMATION &nbsp;•&nbsp; DATA &nbsp;•&nbsp; AI
-</sub>
+<code>SYSTEMS</code>
+&nbsp;→&nbsp;
+<code>CLOUD NATIVE</code>
+&nbsp;→&nbsp;
+<code>AUTOMATION</code>
+&nbsp;→&nbsp;
+<code>DATA</code>
+&nbsp;→&nbsp;
+<code>AI</code>
 
 </div>
 
@@ -35,17 +43,19 @@ SYSTEMS &nbsp;•&nbsp; CLOUD NATIVE &nbsp;•&nbsp; AUTOMATION &nbsp;•&nbsp; 
 <div align="center">
 
 [ **WHOAMI** ](#01--whoami)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 [ **JOURNEY** ](#02--journey)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 [ **STACK** ](#03--technical-architecture)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
+[ **MISSION** ](#04--current-mission)
+&nbsp;·&nbsp;
 [ **FLAGSHIP** ](#05--flagship)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 [ **EXPERIENCE** ](#07--experience)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 [ **LAB** ](#08--the-lab)
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 [ **CONNECT** ](#13--connect)
 
 </div>
@@ -57,25 +67,29 @@ SYSTEMS &nbsp;•&nbsp; CLOUD NATIVE &nbsp;•&nbsp; AUTOMATION &nbsp;•&nbsp; 
 ```text
 ievgen@control-center:~$ ./profile --boot
 
-[ OK ] systems_foundation
+[ OK ] systems
 [ OK ] networking
-[ OK ] asir_complete
-[ OK ] professional_it_experience
-[ OK ] docker_kubernetes_cloud_native
+[ OK ] infrastructure
+[ OK ] asir
+[ OK ] professional_it
+[ OK ] cloud_native
 
-[RUN ] artificial_intelligence
+[RUN ] python
 [RUN ] big_data
-[RUN ] python_data_automation
+[RUN ] artificial_intelligence
 
+MODE    : BUILD
 STATUS  : ONLINE
-MODE    : BUILDING
-VERSION : 2026
+VERSION : 2026.09
 ```
 
 <div align="center">
 
-> **I don't want to understand only one layer.  
-> I want to understand how the whole system connects.**
+### `UNDERSTAND THE LAYERS. CONNECT THE SYSTEM.`
+
+<sub>
+From infrastructure foundations to cloud-native platforms, data and intelligence.
+</sub>
 
 </div>
 
@@ -86,69 +100,74 @@ VERSION : 2026
 <table>
 <tr>
 
-<td width="62%" valign="top">
+<td width="60%" valign="top">
 
 ## Ievgen Soloviov
 
-**Systems Administrator evolving towards Cloud Native, Data & AI.**
+### `Systems Administrator → Cloud Native → Data & AI`
 
-Soy **Técnico Superior en Administración de Sistemas Informáticos en Red**, con una base práctica en sistemas, redes, infraestructura, bases de datos, automatización y soporte IT.
+Soy **Técnico Superior en Administración de Sistemas Informáticos en Red** con una base práctica en:
 
-Durante ASIR amplié ese perfil hacia entornos **Cloud Native**, trabajando con tecnologías de contenerización, Kubernetes, microservicios, observabilidad y seguridad.
+`systems` · `networking` · `infrastructure` · `databases` · `automation` · `IT support`
 
-Actualmente curso una **Especialización en Inteligencia Artificial y Big Data**, conectando esa base de infraestructura con:
+Durante ASIR amplié especialmente mi perfil hacia tecnologías **Cloud Native**, trabajando con contenedores, Kubernetes, microservicios, observabilidad, automatización y seguridad.
+
+Actualmente curso una **Especialización en Inteligencia Artificial y Big Data**.
+
+La nueva capa:
 
 `Python` · `Data` · `Big Data` · `Artificial Intelligence`
 
-Mi forma de entender IT:
+<br>
 
-```text
-USER
-  ↓
-APPLICATION
-  ↓
-SERVICES
-  ↓
-CONTAINERS
-  ↓
-INFRASTRUCTURE
-  ↓
-NETWORK
-  ↓
-SECURITY
-  ↓
-DATA
-```
+> I like understanding what happens **between the user and the infrastructure**, not only inside one technology.
 
 </td>
 
-<td width="38%" valign="top">
+<td width="40%" valign="top">
 
-### `profile.json`
+### `IDENTITY.json`
 
 ```json
 {
-  "name": "Ievgen Soloviov",
+  "base": [
+    "Systems",
+    "Network",
+    "Infrastructure"
+  ],
 
-  "foundation": {
-    "systems": true,
-    "networking": true,
-    "infrastructure": true
-  },
+  "platform": [
+    "Docker",
+    "Kubernetes",
+    "Cloud Native"
+  ],
 
-  "layer": "Cloud Native",
-
-  "current": "AI + Big Data",
-
-  "direction": [
-    "DevOps",
-    "Automation",
-    "Data Engineering",
+  "current": [
+    "Python",
+    "Data",
     "AI"
   ],
 
-  "mode": "building"
+  "status": "building"
 }
+```
+
+### `OPERATING MODEL`
+
+```text
+USER
+ ↓
+APP
+ ↓
+SERVICES
+ ↓
+PLATFORM
+ ↓
+INFRA
+ ↓
+NETWORK
+ ↓
+DATA
 ```
 
 </td>
@@ -169,7 +188,7 @@ DATA
 <br>
 
 <sub>
-Technical foundations → systems → modern infrastructure → intelligence
+FOUNDATION → INFRASTRUCTURE → CLOUD NATIVE → INTELLIGENCE
 </sub>
 
 </div>
@@ -186,7 +205,7 @@ Technical foundations → systems → modern infrastructure → intelligence
 
 <br><br>
 
-### `CORE TECHNOLOGIES`
+### `CORE TOOLCHAIN`
 
 <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows,docker,kubernetes,git,github,bash,powershell,python,postgres,mysql,redis&theme=dark">
 
@@ -194,7 +213,9 @@ Technical foundations → systems → modern infrastructure → intelligence
 
 `Active Directory`
 &nbsp;·&nbsp;
-`DNS / DHCP`
+`DNS`
+&nbsp;·&nbsp;
+`DHCP`
 &nbsp;·&nbsp;
 `TCP/IP`
 &nbsp;·&nbsp;
@@ -202,7 +223,7 @@ Technical foundations → systems → modern infrastructure → intelligence
 &nbsp;·&nbsp;
 `pfSense`
 &nbsp;·&nbsp;
-`Docker Compose`
+`Compose`
 &nbsp;·&nbsp;
 `Swarm`
 &nbsp;·&nbsp;
@@ -224,23 +245,31 @@ Technical foundations → systems → modern infrastructure → intelligence
 
 <img src="./assets/current-mission.svg"
      width="100%"
-     alt="Current AI and Big Data mission">
+     alt="Artificial Intelligence and Big Data current mission">
 
 </div>
 
 <details>
 
-<summary><b>▸ Open current learning context</b></summary>
+<summary><b>▸ ACCESS MISSION DATA</b></summary>
 
 <br>
 
-My current specialization builds on my existing background in:
+### `FOUNDATION`
 
-`Systems Administration` · `Networking` · `Cloud Native` · `Databases` · `Automation`
+`Systems Administration`  
+`Networking`  
+`Cloud Native`  
+`Databases`  
+`Automation`
 
-and expands it towards:
+### `CURRENT BUILD`
 
-`Python` · `Data Processing` · `Data Analysis` · `Big Data` · `Artificial Intelligence`
+`Python`  
+`Data Processing`  
+`Data Analysis`  
+`Big Data`  
+`Artificial Intelligence`
 
 </details>
 
@@ -254,64 +283,71 @@ and expands it towards:
      width="100%"
      alt="ASIX Intermodular Project 2026">
 
-<br>
+<br><br>
 
-### `02.2026 → 06.2026`
+<img src="https://img.shields.io/badge/02.2026_→_06.2026-PROJECT_WINDOW-21262D?style=flat-square">
+<img src="https://img.shields.io/badge/CORE_CONTRIBUTION-01_%2B_02-8957E5?style=flat-square">
+
+<br><br>
 
 # ASIX Intermodular
 
-### Modern Infrastructure Project
+### `Modern Infrastructure / Cloud-Native Engineering`
 
-`Containers` · `Microservices` · `Cloud Native` · `Automation` · `Security` · `Observability`
+`Containers`
+&nbsp;·&nbsp;
+`Microservices`
+&nbsp;·&nbsp;
+`Kubernetes`
+&nbsp;·&nbsp;
+`Automation`
+&nbsp;·&nbsp;
+`Security`
+&nbsp;·&nbsp;
+`Observability`
 
 </div>
 
 <br>
 
-Este proyecto representa uno de los puntos más importantes de mi evolución durante ASIR.
-
-El proyecto completo explora distintas áreas de la administración de sistemas moderna, pero mi trabajo se centró especialmente en:
-
 <table>
 <tr>
 
-<td width="50%" align="center">
+<td width="50%" valign="top">
 
-### `CORE_01`
+### `CORE_01 // PLATFORM EVOLUTION`
 
-## Container Evolution
+```text
+Docker Compose
+      ↓
+Docker Swarm
+      ↓
+Kubernetes
+```
 
-`Docker Compose`
+**Focus**
 
-↓
-
-`Docker Swarm`
-
-↓
-
-`Kubernetes`
+`Containers` · `Networks` · `Volumes` · `Secrets` · `Services` · `Ingress` · `Probes` · `Scaling`
 
 </td>
 
-<td width="50%" align="center">
+<td width="50%" valign="top">
 
-### `CORE_02`
+### `CORE_02 // SHOPMICRO`
 
-## ShopMicro
+```text
+Kubernetes
+    ↓
+Helm
+    ↓
+Istio
+    ↓
+Observability
+```
 
-`Kubernetes`
+**Focus**
 
-↓
-
-`Helm`
-
-↓
-
-`Istio`
-
-↓
-
-`Observability`
+`Microservices` · `HPA` · `StatefulSets` · `Service Mesh` · `Metrics` · `Dashboards`
 
 </td>
 
@@ -320,17 +356,17 @@ El proyecto completo explora distintas áreas de la administración de sistemas 
 
 ---
 
-## `SHOPMICRO // SYSTEM ARCHITECTURE`
+## `SHOPMICRO // LIVE ARCHITECTURE`
 
 <div align="center">
 
 <img src="./assets/flagship-architecture.svg"
      width="100%"
-     alt="ShopMicro cloud native architecture">
+     alt="ShopMicro cloud-native architecture">
 
 <br>
 
-### `Docker → Swarm → Kubernetes → Helm → Istio`
+### `CLIENT → INGRESS → GATEWAY → SERVICES → DATA`
 
 </div>
 
@@ -338,13 +374,11 @@ El proyecto completo explora distintas áreas de la administración de sistemas 
 
 <details>
 
-<summary><b>⚙️ Explore the technical implementation</b></summary>
+<summary><b>⚙ ACCESS TECHNICAL DEPTH</b></summary>
 
 <br>
 
 ### `01 // CONTAINERIZATION`
-
-Arquitectura multicapa inicial:
 
 ```text
 NGINX
@@ -354,15 +388,11 @@ PHP-FPM
 MariaDB
 ```
 
-Trabajando con:
-
 `Docker Compose` · `multi-container architecture` · `frontend/backend networks` · `persistent volumes`
 
 ---
 
-### `02 // DOCKER SWARM`
-
-Evolución hacia orquestación distribuida:
+### `02 // SWARM`
 
 `Services` · `Replicas` · `Overlay Networks` · `Load Balancing` · `Docker Secrets`
 
@@ -370,63 +400,44 @@ Evolución hacia orquestación distribuida:
 
 ### `03 // KUBERNETES`
 
-Despliegue declarativo mediante:
-
-`Deployments`
-
-`Services`
-
-`ConfigMaps`
-
-`Secrets`
-
-`Namespaces`
-
-`Ingress`
-
-`StatefulSets`
-
-`Liveness Probes`
-
-`Readiness Probes`
-
-`Requests / Limits`
-
-`Horizontal Pod Autoscaler`
+```text
+Deployments
+Services
+ConfigMaps
+Secrets
+Namespaces
+Ingress
+StatefulSets
+Liveness Probes
+Readiness Probes
+Requests / Limits
+HPA
+```
 
 ---
 
 ### `04 // MICROSERVICES`
 
-ShopMicro incorpora:
-
 ```text
-PRODUCT SERVICE
-ORDER SERVICE
-USER SERVICE
-```
-
-con una capa de datos y mensajería formada por:
-
-```text
-MySQL
-Redis
-RabbitMQ
+Product Service
+Order Service
+User Service
+      │
+      ▼
+MySQL · Redis · RabbitMQ
 ```
 
 ---
 
 ### `05 // HELM`
 
-Gestión del ciclo de vida:
-
 ```text
 INSTALL
-  ↓
+   ↓
 UPGRADE
-  ↓
-VERSION HISTORY
-  ↓
+   ↓
+HISTORY
+   ↓
 ROLLBACK
 ```
 
@@ -434,17 +445,7 @@ ROLLBACK
 
 ### `06 // ISTIO`
 
-Service Mesh para:
-
-`Traffic Control`
-
-`Retries`
-
-`Timeouts`
-
-`Circuit Breakers`
-
-`mTLS`
+`Traffic Control` · `Retries` · `Timeouts` · `Circuit Breakers` · `mTLS`
 
 ---
 
@@ -462,8 +463,8 @@ Kiali      → Service topology
 
 <div align="center">
 
-<a href="https://github.com/ievgensoloviov/asix-projecte-intermodular">
-<img src="https://img.shields.io/badge/OPEN_FLAGSHIP_REPOSITORY-→-8957E5?style=for-the-badge&logo=github&logoColor=white">
+<a href="https://github.com/IevgenSoloviov/Projecte-intermodular-administracio-de-sistemes-informatics-en-xarxa">
+<img src="https://img.shields.io/badge/ENTER_FLAGSHIP_REPOSITORY-→-8957E5?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 </div>
@@ -474,7 +475,9 @@ Kiali      → Service topology
 
 <div align="center">
 
-### More systems I've designed, deployed or documented.
+### `OTHER DEPLOYMENTS // DIFFERENT PROBLEMS // DIFFERENT LAYERS`
+
+<br>
 
 </div>
 
@@ -487,22 +490,16 @@ Kiali      → Service topology
      width="100%"
      alt="Hotel Management Platform">
 
-<br>
-
 ### `HOTEL MANAGEMENT PLATFORM`
 
 `Python` · `PostgreSQL` · `Power BI` · `APIs`
 
-Aplicación y plataforma de datos para gestión hotelera.
-
-**Core areas**
-
-Bookings · customers · billing · PostgreSQL administration · API integration · backups · replication · permissions · analytics.
+Data-driven management platform covering bookings, customers, billing, database administration, integrations, backups, replication and analytics.
 
 <br>
 
 <a href="https://drive.google.com/drive/folders/1cHo6X1G8EaBOuPj4vm0Qt2R9xkxh8GaB">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-21262D?style=for-the-badge&logo=googledrive&logoColor=white">
+<img src="https://img.shields.io/badge/EXPLORE_SYSTEM-21262D?style=for-the-badge&logo=googledrive&logoColor=white">
 </a>
 
 </td>
@@ -513,22 +510,16 @@ Bookings · customers · billing · PostgreSQL administration · API integration
      width="100%"
      alt="TechSolutions Infrastructure">
 
-<br>
-
 ### `TECHSOLUTIONS IS`
 
-`Windows Server` · `Linux` · `AD` · `pfSense`
+`Windows Server` · `Linux` · `Active Directory` · `pfSense`
 
-Diseño y despliegue de infraestructura corporativa.
-
-**Core areas**
-
-Windows/Linux servers · Active Directory · LDAP · DNS/DHCP · pfSense · LAN/DMZ · SSL/TLS · RAID · backups.
+Corporate infrastructure design covering servers, directory services, DNS/DHCP, network segmentation, SSL/TLS, storage and automated backups.
 
 <br>
 
 <a href="https://drive.google.com/drive/folders/1VF-ht9ClLWi4b1KtknwVLrIZdETHP4xI">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-21262D?style=for-the-badge&logo=googledrive&logoColor=white">
+<img src="https://img.shields.io/badge/EXPLORE_SYSTEM-21262D?style=for-the-badge&logo=googledrive&logoColor=white">
 </a>
 
 </td>
@@ -550,7 +541,7 @@ Windows/Linux servers · Active Directory · LDAP · DNS/DHCP · pfSense · LAN/
 
 <details>
 
-<summary><b>▸ Open professional experience details</b></summary>
+<summary><b>▸ ACCESS PROFESSIONAL LOG</b></summary>
 
 <br>
 
@@ -559,49 +550,55 @@ Windows/Linux servers · Active Directory · LDAP · DNS/DHCP · pfSense · LAN/
 
 <td width="50%" valign="top">
 
-## `ENV_01 // SERHS`
+## `ENV_01`
 
-### Service Desk Technician
+### SERHS
+
+**Service Desk Technician**
 
 `06.2025 → 11.2025`
 
-**Corporate IT Environment**
+```text
+TYPE : Corporate IT
+MODE : Production
+```
 
-Worked with:
-
-↳ Hardware & software incidents  
-↳ On-site and remote support  
-↳ Operating systems  
-↳ Active Directory  
-↳ Device management  
-↳ JIRA  
-↳ Corporate networking  
-↳ Switches & cabling  
-↳ Firewall rules  
-↳ IT security  
+Hardware & software incidents  
+On-site and remote support  
+Operating systems  
+Active Directory  
+Device management  
+JIRA  
+Corporate networking  
+Switches & cabling  
+Firewall rules  
+IT security  
 
 </td>
 
 <td width="50%" valign="top">
 
-## `ENV_02 // AJUNTAMENT`
+## `ENV_02`
 
-### IT Assistant
+### Ajuntament de Lloret de Mar
+
+**IT Assistant**
 
 `04.2023 → 08.2023`
 
-**Public Administration IT**
+```text
+TYPE : Public Administration
+MODE : Production
+```
 
-Worked with:
-
-↳ End-user support  
-↳ Web administration  
-↳ Plone CMS  
-↳ HTML / CSS  
-↳ Municipal websites  
-↳ Content management  
-↳ Lloret Smart  
-↳ Mobile management systems  
+End-user support  
+Web administration  
+Plone CMS  
+HTML / CSS  
+Municipal websites  
+Content management  
+Lloret Smart  
+Mobile management systems  
 
 </td>
 
@@ -616,9 +613,9 @@ Worked with:
 
 <div align="center">
 
-### GitHub is not my storage.
+### `NOT A STORAGE FOLDER`
 
-## `It is my technical laboratory.`
+# `A TECHNICAL LABORATORY`
 
 <br>
 
@@ -626,13 +623,19 @@ Worked with:
      width="100%"
      alt="Ievgen technical laboratory">
 
+<br>
+
+<sub>
+EXPLORE → BUILD → BREAK → DEBUG → DOCUMENT → IMPROVE
+</sub>
+
 </div>
 
 <br>
 
 <details>
 
-<summary><b>▸ Explore laboratory areas</b></summary>
+<summary><b>▸ ACCESS LAB INVENTORY</b></summary>
 
 <br>
 
@@ -641,11 +644,11 @@ Worked with:
 
 <td width="33%" valign="top">
 
-### ☸️ Cloud Native
+### `CLOUD`
 
 Docker  
-Docker Compose  
-Docker Swarm  
+Compose  
+Swarm  
 Kubernetes  
 Helm  
 Istio  
@@ -654,7 +657,7 @@ Istio
 
 <td width="33%" valign="top">
 
-### 🖥️ Systems
+### `SYSTEMS`
 
 Linux  
 Ubuntu Server  
@@ -666,12 +669,12 @@ DNS / DHCP
 
 <td width="33%" valign="top">
 
-### 🌐 Network
+### `NETWORK`
 
 TCP/IP  
 VLAN  
 Routing  
-Firewalls  
+Firewall  
 pfSense  
 LAN / DMZ  
 
@@ -683,7 +686,7 @@ LAN / DMZ
 
 <td width="33%" valign="top">
 
-### 📊 Observability
+### `OBSERVE`
 
 Prometheus  
 Grafana  
@@ -695,7 +698,7 @@ SNMP
 
 <td width="33%" valign="top">
 
-### 📡 Services
+### `SERVICES`
 
 Matrix  
 Synapse  
@@ -708,14 +711,14 @@ HLS
 
 <td width="33%" valign="top">
 
-### 🧠 Data + AI
+### `INTELLIGENCE`
 
 Python  
 SQL  
 PostgreSQL  
 MySQL  
 Big Data  
-Artificial Intelligence  
+AI  
 
 </td>
 
@@ -744,23 +747,30 @@ Artificial Intelligence
 
 ### `PUBLIC GITHUB SIGNAL`
 
-<br>
-
-<img height="165"
-     src="https://github-readme-stats.vercel.app/api?username=ievgensoloviov&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=8957E5&rank_icon=github">
-
-<img height="165"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=ievgensoloviov&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&langs_count=6">
+<sub>
+Public repositories // coding activity // repository languages
+</sub>
 
 <br><br>
 
-<img width="92%"
-     src="https://github-readme-activity-graph.vercel.app/graph?username=ievgensoloviov&bg_color=00000000&color=8B949E&line=58A6FF&point=8957E5&area=true&hide_border=true">
+<img width="94%"
+     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IevgenSoloviov&theme=github_dark"
+     alt="Ievgen Soloviov GitHub profile details">
 
-<br>
+<br><br>
+
+<img width="46%"
+     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IevgenSoloviov&theme=github_dark"
+     alt="Ievgen Soloviov GitHub statistics">
+
+<img width="46%"
+     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IevgenSoloviov&theme=github_dark"
+     alt="Ievgen Soloviov repository languages">
+
+<br><br>
 
 <sub>
-GitHub telemetry represents public repository activity, not the complete scope of my technical experience.
+Telemetry reflects public GitHub activity — not the full scope of my technical work.
 </sub>
 
 </div>
@@ -774,13 +784,13 @@ GitHub telemetry represents public repository activity, not the complete scope o
 
 <td width="50%" valign="top">
 
-### `LANGUAGES`
+### `LANGUAGE INTERFACES`
 
 ```text
-Spanish  ██████████  Native
-Catalan  ██████████  Native
-English  ██████░░░░  B1 / B2
-Russian  ██░░░░░░░░  Basic
+ES  ██████████  Native
+CA  ██████████  Native
+EN  ██████░░░░  B1 / B2
+RU  ██░░░░░░░░  Basic
 ```
 
 </td>
@@ -790,12 +800,12 @@ Russian  ██░░░░░░░░  Basic
 ### `OPERATING PRINCIPLES`
 
 ```text
-[+] learn by building
-[+] understand the whole system
-[+] document what matters
-[+] automate repetitive work
-[+] debug before guessing
-[+] improve after every iteration
+01  learn by building
+02  understand the whole system
+03  document what matters
+04  automate repetitive work
+05  debug before guessing
+06  improve every iteration
 ```
 
 </td>
@@ -807,39 +817,52 @@ Russian  ██░░░░░░░░  Basic
 
 # `12 // NEXT SIGNAL`
 
+<div align="center">
+
+### `SYSTEM EVOLUTION STATUS`
+
+</div>
+
 ```text
-CURRENT STATE
-│
-├── Systems Administration       [ STABLE ]
-├── Networking                   [ STABLE ]
-├── Infrastructure              [ STABLE ]
-├── Docker / Kubernetes         [ ACTIVE ]
-├── Cloud Native                [ ACTIVE ]
-├── Python                      [ BUILDING ]
-├── Big Data                    [ BUILDING ]
-└── Artificial Intelligence     [ BUILDING ]
+SYSTEMS ADMINISTRATION  ██████████  FOUNDATION
+NETWORKING              ██████████  FOUNDATION
+INFRASTRUCTURE          ██████████  FOUNDATION
+
+DOCKER / KUBERNETES     ████████░░  ACTIVE
+CLOUD NATIVE            ████████░░  ACTIVE
+
+PYTHON                  ██████░░░░  BUILDING
+BIG DATA                █████░░░░░  BUILDING
+ARTIFICIAL INTELLIGENCE █████░░░░░  BUILDING
 ```
+
+> The bars above represent **direction and current focus**, not formal skill percentages.
 
 <div align="center">
 
-### NEXT DIRECTIONS
+<br>
+
+### `NEXT VECTOR`
 
 `Cloud Computing`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 `DevOps`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 `Infrastructure Automation`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 `Cybersecurity`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 `Data Engineering`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+&nbsp;·&nbsp;
 `Artificial Intelligence`
 
 <br><br>
 
-> **The goal is not to collect technologies.  
-> The goal is to understand how they work together.**
+## `THE NEXT VERSION CONNECTS THE LAYERS.`
+
+<sub>
+Infrastructure below. Intelligence above. Automation between them.
+</sub>
 
 </div>
 
@@ -850,13 +873,14 @@ CURRENT STATE
 <div align="center">
 
 ```text
-ievgen@control-center:~$ connection --status
+ievgen@control-center:~$ connection --scan
 
-portfolio ........ ONLINE
-linkedin ......... ONLINE
-github ........... ONLINE
+PORTFOLIO .............. ONLINE
+LINKEDIN ............... ONLINE
+GITHUB ................. ONLINE
 
-awaiting_next_connection █
+AVAILABLE .............. YES
+STATUS .................. READY
 ```
 
 <br>
@@ -869,20 +893,20 @@ awaiting_next_connection █
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<a href="https://github.com/ievgensoloviov">
+<a href="https://github.com/IevgenSoloviov">
 <img src="https://img.shields.io/badge/GITHUB-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-<br><br>
+<br><br><br>
 
 ### `SYSTEMS // CLOUD NATIVE // AUTOMATION // DATA // AI`
 
 <sub>
-Designed as a technical control center rather than a traditional profile README.
+Built as a technical control center — not a traditional profile README.
 </sub>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=ievgensoloviov&label=CONTROL+CENTER+VISITS&style=flat-square&color=1f6feb">
+<img src="https://komarev.com/ghpvc/?username=IevgenSoloviov&label=CONTROL+CENTER+VISITS&style=flat-square&color=1f6feb">
 
 </div>
