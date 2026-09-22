@@ -1,0 +1,477 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Timeline gradient -->
+    <linearGradient id="timeline"
+                    x1="0" y1="0"
+                    x2="1" y2="0">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="42%" stop-color="#58A6FF"/>
+      <stop offset="72%" stop-color="#8957E5"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#1E293B"
+            stroke-width="1"/>
+    </pattern>
+
+    <!-- Glow -->
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="5"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- ===================================================== -->
+  <!-- BACKGROUND                                            -->
+  <!-- ===================================================== -->
+
+  <rect width="1200"
+        height="520"
+        rx="26"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="520"
+        rx="26"
+        fill="url(#grid)"
+        opacity="0.20"/>
+
+
+  <!-- ===================================================== -->
+  <!-- TERMINAL BAR                                          -->
+  <!-- ===================================================== -->
+
+  <circle cx="32"
+          cy="28"
+          r="5"
+          fill="#FF5F56"/>
+
+  <circle cx="50"
+          cy="28"
+          r="5"
+          fill="#FFBD2E"/>
+
+  <circle cx="68"
+          cy="28"
+          r="5"
+          fill="#27C93F"/>
+
+  <text x="92"
+        y="33"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+    ievgen@education-path:~
+  </text>
+
+  <text x="1150"
+        y="33"
+        text-anchor="end"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11">
+    LEARNING PATH // ACTIVE
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- HEADER                                                -->
+  <!-- ===================================================== -->
+
+  <text x="50"
+        y="72"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="2">
+    09 // EDUCATION PATH
+  </text>
+
+  <text x="50"
+        y="112"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="29"
+        font-weight="700">
+    Building the foundation layer by layer.
+  </text>
+
+  <text x="50"
+        y="141"
+        fill="#64748B"
+        font-family="Arial, sans-serif"
+        font-size="14">
+    Systems → infrastructure → cloud-native → data &amp; intelligence
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- MAIN TIMELINE                                         -->
+  <!-- ===================================================== -->
+
+  <line x1="170"
+        y1="235"
+        x2="1030"
+        y2="235"
+        stroke="url(#timeline)"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+
+  <!-- ===================================================== -->
+  <!-- NODE 01 // SMX                                        -->
+  <!-- ===================================================== -->
+
+  <circle cx="250"
+          cy="235"
+          r="14"
+          fill="#64748B"
+          stroke="#94A3B8"
+          stroke-width="3"/>
+
+  <text x="250"
+        y="205"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="11">
+    2022 → 2024
+  </text>
+
+
+  <line x1="250"
+        y1="249"
+        x2="250"
+        y2="280"
+        stroke="#64748B"
+        stroke-width="2"/>
+
+
+  <rect x="95"
+        y="280"
+        width="310"
+        height="150"
+        rx="20"
+        fill="#09111F"
+        stroke="#475569"
+        stroke-width="1.5"/>
+
+
+  <rect x="120"
+        y="302"
+        width="72"
+        height="24"
+        rx="12"
+        fill="#111827"/>
+
+  <text x="156"
+        y="318"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="9">
+    STAGE_01
+  </text>
+
+
+  <text x="120"
+        y="360"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="700">
+    SMX
+  </text>
+
+  <text x="120"
+        y="385"
+        fill="#94A3B8"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Sistemas Microinformáticos
+  </text>
+
+  <text x="120"
+        y="404"
+        fill="#94A3B8"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    y Redes
+  </text>
+
+
+  <text x="120"
+        y="425"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    Institut Sa Palomera
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- NODE 02 // ASIR                                       -->
+  <!-- ===================================================== -->
+
+  <circle cx="600"
+          cy="235"
+          r="15"
+          fill="#58A6FF"
+          stroke="#79C0FF"
+          stroke-width="3"
+          filter="url(#softGlow)"/>
+
+  <text x="600"
+        y="205"
+        text-anchor="middle"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="11">
+    2024 → 2026
+  </text>
+
+
+  <line x1="600"
+        y1="249"
+        x2="600"
+        y2="280"
+        stroke="#58A6FF"
+        stroke-width="2"/>
+
+
+  <rect x="445"
+        y="280"
+        width="310"
+        height="150"
+        rx="20"
+        fill="#09111F"
+        stroke="#1F6FEB"
+        stroke-width="1.5"/>
+
+
+  <rect x="470"
+        y="302"
+        width="72"
+        height="24"
+        rx="12"
+        fill="#0C1D36"/>
+
+  <text x="506"
+        y="318"
+        text-anchor="middle"
+        fill="#79C0FF"
+        font-family="monospace"
+        font-size="9">
+    STAGE_02
+  </text>
+
+
+  <text x="470"
+        y="360"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="700">
+    ASIR
+  </text>
+
+  <text x="470"
+        y="385"
+        fill="#79C0FF"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Administración de Sistemas
+  </text>
+
+  <text x="470"
+        y="404"
+        fill="#79C0FF"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Informáticos en Red
+  </text>
+
+
+  <text x="470"
+        y="425"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    Institut Sa Palomera
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- NODE 03 // AI + BIG DATA                              -->
+  <!-- ===================================================== -->
+
+  <circle cx="950"
+          cy="235"
+          r="17"
+          fill="#2DD4BF"
+          stroke="#99F6E4"
+          stroke-width="3"
+          filter="url(#softGlow)"/>
+
+  <circle cx="950"
+          cy="235"
+          r="28"
+          fill="none"
+          stroke="#2DD4BF"
+          stroke-width="1"
+          opacity="0.25"/>
+
+  <text x="950"
+        y="205"
+        text-anchor="middle"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="11">
+    2026 → NOW
+  </text>
+
+
+  <line x1="950"
+        y1="252"
+        x2="950"
+        y2="280"
+        stroke="#2DD4BF"
+        stroke-width="2"/>
+
+
+  <rect x="795"
+        y="280"
+        width="310"
+        height="150"
+        rx="20"
+        fill="#09111F"
+        stroke="#2DD4BF"
+        stroke-width="1.7"/>
+
+
+  <rect x="820"
+        y="302"
+        width="92"
+        height="24"
+        rx="12"
+        fill="#092622"/>
+
+  <circle cx="838"
+          cy="314"
+          r="3"
+          fill="#3FB950"/>
+
+  <text x="850"
+        y="318"
+        fill="#5EEAD4"
+        font-family="monospace"
+        font-size="9">
+    CURRENT
+  </text>
+
+
+  <text x="820"
+        y="360"
+        fill="#F8FAFC"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="700">
+    AI + Big Data
+  </text>
+
+  <text x="820"
+        y="385"
+        fill="#5EEAD4"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Curso de Especialización
+  </text>
+
+  <text x="820"
+        y="407"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    Python · Data · AI · Big Data
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- EVOLUTION LABELS                                      -->
+  <!-- ===================================================== -->
+
+  <text x="250"
+        y="465"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="9">
+    FOUNDATION
+  </text>
+
+  <text x="600"
+        y="465"
+        text-anchor="middle"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="9">
+    INFRASTRUCTURE
+  </text>
+
+  <text x="950"
+        y="465"
+        text-anchor="middle"
+        fill="#2DD4BF"
+        font-family="monospace"
+        font-size="9">
+    INTELLIGENCE
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- FOOTER                                                -->
+  <!-- ===================================================== -->
+
+  <line x1="225"
+        y1="488"
+        x2="975"
+        y2="488"
+        stroke="#1E293B"
+        stroke-width="1"/>
+
+  <text x="600"
+        y="508"
+        text-anchor="middle"
+        fill="#475569"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1">
+    LEARN → BUILD → SPECIALIZE → EVOLVE
+  </text>
+
+</svg>
