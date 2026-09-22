@@ -1,6 +1,6 @@
 <!-- ====================================================== -->
 <!-- IEVGEN SOLOVIOV // TECHNICAL CONTROL CENTER            -->
-<!-- PROFILE BUILD: V5                                      -->
+<!-- PROFILE BUILD: V5.1 // INTERNATIONAL EXPERIENCE        -->
 <!-- ====================================================== -->
 
 <div align="center">
@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/●_SYSTEM-ONLINE-238636?style=flat-square">
 <img src="https://img.shields.io/badge/ASIR-COMPLETE-1F6FEB?style=flat-square">
 <img src="https://img.shields.io/badge/AI_%2B_BIG_DATA-CURRENT-8957E5?style=flat-square">
-<img src="https://img.shields.io/badge/MODE-BUILDING-D29922?style=flat-square">
+<img src="https://img.shields.io/badge/INTERNATIONAL-MALTA_2026-D29922?style=flat-square">
 
 <br><br>
 
@@ -73,12 +73,13 @@ ievgen@control-center:~$ ./profile --boot
 [ OK ] systems + networking + infrastructure
 [ OK ] asir + professional_it
 [ OK ] docker + kubernetes + cloud_native
+[ OK ] international_experience + web_crm_workflows
 
 [RUN ] python + data + big_data + artificial_intelligence
 
 STATUS  : ONLINE
 MODE    : BUILD
-VERSION : V5
+VERSION : V5.1
 ```
 
 <div align="center">
@@ -108,7 +109,9 @@ Soy **Técnico Superior en Administración de Sistemas Informáticos en Red** co
 
 Durante ASIR evolucioné especialmente hacia arquitecturas **Cloud Native**, trabajando con contenedores, Kubernetes, microservicios, observabilidad, automatización y seguridad.
 
-Ahora estoy añadiendo una nueva capa:
+En 2026 amplié también mi experiencia internacional con unas prácticas presenciales en **Malta**, trabajando con plataformas web, CRM y flujos de trabajo digitales mediante **WordPress, Zoho CRM y Photoshop**.
+
+Actualmente estoy incorporando una nueva capa a mi perfil:
 
 `Python` · `Data` · `Big Data` · `Artificial Intelligence`
 
@@ -135,6 +138,12 @@ Ahora estoy añadiendo una nueva capa:
     "Docker",
     "Kubernetes",
     "Cloud Native"
+  ],
+
+  "experience": [
+    "Public IT",
+    "Corporate IT",
+    "International Digital"
   ],
 
   "current": [
@@ -221,6 +230,22 @@ FOUNDATIONS → SYSTEMS → CLOUD NATIVE → INTELLIGENCE
 `Prometheus`
 &nbsp;·&nbsp;
 `Grafana`
+
+<br><br>
+
+### `DIGITAL OPERATIONS`
+
+`WordPress`
+&nbsp;·&nbsp;
+`Zoho CRM`
+&nbsp;·&nbsp;
+`Photoshop`
+&nbsp;·&nbsp;
+`HTML / CSS`
+&nbsp;·&nbsp;
+`Web Content`
+&nbsp;·&nbsp;
+`CRM Workflows`
 
 </div>
 
@@ -508,7 +533,17 @@ Corporate infrastructure design covering servers, identity, DNS/DHCP, segmentati
   width="100%"
   alt="Ievgen Soloviov professional experience">
 
+<br>
+
+### `PUBLIC IT → CORPORATE IT → INTERNATIONAL DIGITAL`
+
+<sub>
+Three environments. Different challenges. One evolving technical profile.
+</sub>
+
 </div>
+
+<br>
 
 <details>
 
@@ -519,53 +554,105 @@ Corporate infrastructure design covering servers, identity, DNS/DHCP, segmentati
 <table>
 <tr>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### `ENV_01 // SERHS`
+### `ENV_01 // MALTA`
+
+## ppmalta group
+
+**Web & Digital Tools Intern**
+
+`03.2026 → 05.2026`
+
+```text
+LOCATION    : Malta
+MODE        : On-site
+ENVIRONMENT : International
+```
+
+Worked with:
+
+`WordPress`  
+`Zoho CRM`  
+`Photoshop`
+
+<br>
+
+↳ Created, edited and improved website content  
+↳ Managed Zoho CRM modules and workflows  
+↳ Organized CRM tasks and data  
+↳ Edited and optimized images  
+↳ Supported website improvements  
+↳ Worked with digital content workflows  
+
+</td>
+
+<td width="33%" valign="top">
+
+### `ENV_02 // SERHS`
+
+## SERHS
 
 **Service Desk Technician**
 
 `06.2025 → 11.2025`
 
 ```text
+LOCATION    : Pineda de Mar
+MODE        : On-site
 ENVIRONMENT : Corporate IT
-MODE        : Production
 ```
 
-Hardware & software incidents  
-On-site and remote support  
-Operating systems  
-Active Directory  
-Device management  
-JIRA  
-Corporate networking  
-Switches & cabling  
-Firewall rules  
-IT security  
+Worked with:
+
+`Active Directory`  
+`JIRA`  
+`Networking`
+
+<br>
+
+↳ Hardware & software incidents  
+↳ Operating systems  
+↳ Device management  
+↳ User support  
+↳ Corporate networking  
+↳ Switches & cabling  
+↳ Firewall rules  
+↳ IT security  
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### `ENV_02 // AJUNTAMENT`
+### `ENV_03 // AJUNTAMENT`
+
+## Lloret de Mar
 
 **IT Assistant**
 
 `04.2023 → 08.2023`
 
 ```text
-ENVIRONMENT : Public Administration
-MODE        : Production
+LOCATION    : Lloret de Mar
+MODE        : On-site
+ENVIRONMENT : Public IT
 ```
 
-End-user support  
-Web administration  
-Plone CMS  
-HTML / CSS  
-Municipal websites  
-Content management  
-Lloret Smart  
-Mobile management systems  
+Worked with:
+
+`Plone CMS`  
+`HTML / CSS`  
+`Support`
+
+<br>
+
+↳ End-user support  
+↳ Web administration  
+↳ Plone CMS  
+↳ Municipal websites  
+↳ Content management  
+↳ Lloret Smart  
+↳ Mobile management systems  
 
 </td>
 
@@ -606,7 +693,7 @@ Mobile management systems
 <table>
 <tr>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### `CLOUD`
 
@@ -619,7 +706,7 @@ Istio
 
 </td>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### `SYSTEMS`
 
@@ -631,7 +718,7 @@ DNS / DHCP
 
 </td>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### `NETWORK`
 
@@ -644,11 +731,7 @@ LAN / DMZ
 
 </td>
 
-</tr>
-
-<tr>
-
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### `OBSERVE`
 
@@ -660,7 +743,11 @@ SNMP
 
 </td>
 
-<td width="33%" valign="top">
+</tr>
+
+<tr>
+
+<td width="25%" valign="top">
 
 ### `SERVICES`
 
@@ -673,16 +760,40 @@ HLS
 
 </td>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
-### `INTELLIGENCE`
+### `DIGITAL`
 
-Python  
+WordPress  
+Zoho CRM  
+Photoshop  
+HTML / CSS  
+CRM Workflows  
+Web Content  
+
+</td>
+
+<td width="25%" valign="top">
+
+### `DATA`
+
 SQL  
 PostgreSQL  
 MySQL  
+Redis  
+Power BI  
+
+</td>
+
+<td width="25%" valign="top">
+
+### `AI`
+
+Python  
+Data Processing  
+Data Analysis  
 Big Data  
-AI  
+Artificial Intelligence  
 
 </td>
 
@@ -800,7 +911,15 @@ AI
 &nbsp;·&nbsp;
 `INFRASTRUCTURE`
 
-### `ACTIVE LAYER`
+### `EXPERIENCE LAYERS`
+
+`PUBLIC IT`
+&nbsp;·&nbsp;
+`CORPORATE IT`
+&nbsp;·&nbsp;
+`INTERNATIONAL DIGITAL`
+
+### `ACTIVE PLATFORM`
 
 `DOCKER`
 &nbsp;·&nbsp;
@@ -836,6 +955,9 @@ PORTFOLIO ............. ONLINE
 LINKEDIN .............. ONLINE
 GITHUB ................ ONLINE
 
+EXPERIENCE ............ 3 ENVIRONMENTS
+INTERNATIONAL ......... MALTA / 2026
+
 NETWORK ............... READY
 NEXT CONNECTION ....... WAITING █
 ```
@@ -859,7 +981,7 @@ NEXT CONNECTION ....... WAITING █
 ### `SYSTEMS // CLOUD NATIVE // AUTOMATION // DATA // AI`
 
 <sub>
-Technical profile engineered as a control center — not a traditional README.
+Technical profile engineered as a control center — not a traditional profile README.
 </sub>
 
 <br><br>
